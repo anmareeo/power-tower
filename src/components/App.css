@@ -1,0 +1,378 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  html {
+    max-width: 1280px;
+    }
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        
+    }
+    #box{
+        width:1200px;
+        margin:20px;
+        
+    
+    }
+    
+    #container { 
+        width:1050px;
+        height:100px;
+        margin: 20px;
+        padding: 1px 10px 20px 10px;
+    }
+    
+    #header{
+        height: 100px;
+        padding: 10px 0px;
+    }
+    #brand{
+        float: right;
+    }
+    h2 a{
+        font-size: 50px;
+        font-weight: 100;
+        color: blue;
+        text-decoration: none;
+    }
+    
+    #searchBox{
+        float: right;
+        width: 300px;
+        height: 3;
+        padding: 1px 20px;
+      
+    }
+    
+    .text{
+        float: right;
+        width:200px;
+        padding:5px;
+        font-size:15px;
+        color: blue;
+        /* background: white url(Magnifying\ Glass.png) right center no-repeat; */
+        border: 1px solid navy;
+      
+    }
+    
+    .submit{
+        float: right;
+        padding: 5px;
+        font-weight: bold;
+        color: black;
+        background: gray;
+        font-size: 15px;
+    }
+    
+    .clear{
+        clear: both;
+    }
+    
+    #menu{
+        height: 55px;
+        background-color: lightskyblue;
+        padding: 1px 10px 3px 10px;
+        
+    }
+    ul{
+        list-style:none;
+    }
+    #menu  ul li{
+        float: left;
+        padding: 0 10px;
+        height: 20px;
+        border-right: 1px darkblue;
+        line-height: 30px;
+    }
+    
+    #menu ul li:last-child{
+        border-right: none;
+    }
+    
+    #menu ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 17px;
+        color: darkblue;
+        transition: font-size .3s ease;
+    }
+    
+    #menu ul li a:hover, #menu ul li a:active{
+        font-size: 20px;
+        font-weight: bold;
+        color: blue;
+    }
+    
+    #introduction{
+        padding: 15px;
+        margin:16px 0;
+        text-align: center;
+    
+    }
+    
+    #introduction h3{
+        font-size:45px;
+        color: lightskyblue;
+        font-weight: normal;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    #introduction p{
+        font-size: 15px;
+        color: navy;
+        text-align: justify;
+    }
+    * {
+        box-sizing:border-box;
+    }
+    
+    .flexbox{
+        height:200px; 
+        margin: -10px 10px 40px 10px;
+        float: center;
+        padding-left:100px;
+        padding-right:50px;
+        padding-bottom: 100px;
+        
+    
+    }
+    
+    .flexbox > img{
+        text-align: center;
+        padding:30px;
+        margin:10px;
+        float: center;
+        
+    
+    }
+    
+    .sidebar{
+        height: 600px;
+        width: 470px;
+        border: 1px solid darkblue;
+        border-radius: 20px;
+        padding: 10px 30px;
+    }
+    
+    #leftsidebar{
+        float: left;
+    
+    }
+    
+    #rightsidebar{
+        float: right;
+    }
+    
+    .sidebar h3{
+        color: darkblue;
+        font-size: 30px;
+    
+    }
+    .sidebar ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: blue;
+    }
+    
+    .sidebar ul li a:hover, .sidebar ul li a:active{
+        text-decoration: none;
+        color:blue;
+        font-size:23px;
+        font-weight:bold;
+    
+    }
+    
+    .sidebar ul{
+        padding-top: 5px;
+    }
+    #leftsidebar ul li{
+        padding-bottom: 6px;
+        padding-left: 10px;
+        /* list-style-image: url(arrow.png); */
+    }
+    
+    #rightsidebar ul li{
+        padding-bottom: 12px;
+        /* list-style-image: url(checkmark.png); */
+    }
+    
+    #credit{
+        /* height:100px; */
+        /* width: 420px; */
+        align-content: center;
+        padding: 2px;
+        margin-top:-30px;
+    
+    }
+    
+    #credit h6{
+        padding: none;
+        margin-bottom: 2px;
+    
+    }
+    
+    #credit button{
+        padding: 2px;
+        float: right;
+        border-radius:5px;
+        
+     }
+    
+     .footer{
+         height:12 0px;
+         background: lightskyblue;
+         padding: 10px 30px;
+         margin-top:30px;
+         border-radius:20px;
+     }
+  
+  /* the * means global styling */
+  * { 
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      }
+      .box {
+          padding:2px;
+         
+      }
+  
+      .container1{
+          background-color: gainsboro;
+          padding-top: 75px;
+          padding-bottom: 50px;
+          display: flex;
+          flex-direction: column;  
+          justify-content: center;
+          flex-wrap: wrap; /*this allows the items to wrap to the next row if the screen is shrunk*/
+          align-content: space-evenly; /* stretch is the default, and it has the same options as align items (stretch, space-between, space-around).  This aligns rows across the entire axis, whereas align-items just aligns items*/
+      }
+  
+      .container3{
+        background-color: gainsboro;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;  
+        justify-content: center;
+
+        align-items: flex-start;
+        flex-wrap: wrap; /*this allows the items to wrap to the next row if the screen is shrunk*/
+        align-content: flex-start; /* stretch is the default, and it has the same options as align items (stretch, space-between, space-around).  This aligns rows across the entire axis, whereas align-items just aligns items*/
+    }
+      .container2{
+          background-color: gainsboro;
+          padding: 25px;
+          display: flex;
+          flex-direction: row;  
+          justify-content: space-evenly;
+  
+          align-items: center;
+          flex-wrap: wrap; /*this allows the items to wrap to the next row if the screen is shrunk*/
+          align-content: center; /* stretch is the default, and it has the same options as align items (stretch, space-between, space-around).  This aligns rows across the entire axis, whereas align-items just aligns items*/
+      }
+      
+      .container {
+          background-color: gainsboro;
+          padding: 10px;
+          display: flex;
+          flex-direction: row;  
+          justify-content: space-evenly;
+          align-items: stretch; /*this aligns items along the row.*/
+  
+          flex-wrap: wrap; /*this allows the items to wrap to the next row if the screen is shrunk*/
+          align-content: space-evenly; /* stretch is the default, and it has the same options as align items (stretch, space-between, space-around).  This aligns rows across the entire axis, whereas align-items just aligns items*/
+      }
+  
+      
+      .item {
+          padding:10px;
+          margin: 10px;
+     
+       
+      }
+      
+  
+  
+      .i2{
+  
+          flex: 1 1 300px;
+      }
+  
+      .i3{ 
+          align-self: center;
+          flex-direction:column;
+          
+        
+         
+      }
+      
+      .photo{ 
+          
+          height: 300px;
+      }
+      .photo1{ 
+          transform: rotate(90deg);
+          height: 375px;
+               
+      }
+      .photo2{ 
+          transform: rotate(90deg);
+          height: 200px;
+               
+      }
+     
+      .about{
+          height:500px;
+          width:350px;
+          border:1px solid navy;
+          padding:1px;
+          margin:1px;
+  
+          
+      }
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
