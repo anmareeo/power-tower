@@ -5,10 +5,7 @@ import { render } from "@testing-library/react"
 export default function About(){
   /*  let thePower = [
         "Free consultation.",
-        "Availability through Skype or other video technologies.",
-        "A variety of service packages to meet your needs.",
-        "Certified organizing expertise.",
-        "Zero judgment.",
+        
         "30-day Money Back Guarantee."
     ]
 

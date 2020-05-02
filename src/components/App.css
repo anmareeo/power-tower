@@ -308,7 +308,7 @@
       }
       
       .container {
-          background-color: gainsboro;
+          background-color: aliceblue;
           padding: 10px;
           display: flex;
           flex-direction: row;  
@@ -335,7 +335,7 @@
       }
   
       .i3{ 
-          align-self: center;
+          align-self: flex-start;
           flex-direction:column;
           
         
