@@ -1,6 +1,6 @@
 import React from 'react';
-import Intro from './SimpleContainer';
 import SimpleContainer from './SimpleContainer';
+import Container from './Container';
 import './App.css';
 
 

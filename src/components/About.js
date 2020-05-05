@@ -1,6 +1,7 @@
 import React from "react"
 import "./App.css"
 import main from "../images/main.png"
+import main1 from "../images/main1.png"
 import { render } from "@testing-library/react"
 export default function About(){
   /*  let thePower = [
@@ -32,7 +33,7 @@ export default function About(){
                         </div>
                         
                         </div>
-                    <div class = "item"><img src={main} alt ='main' className="photo2" resizeMode="contain" /></div>
+                    <div class = "item"><img src={main} alt ='main' className="photo1" resizeMode="contain" /></div>
                     <div className="about">
                         <h1>The Tower</h1></div>
                 </div>

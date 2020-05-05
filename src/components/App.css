@@ -45,7 +45,7 @@
         
     }
     #box{
-        width:1200px;
+        width:1400px;
         margin:20px;
         
     
@@ -347,8 +347,9 @@
           height: 300px;
       }
       .photo1{ 
-          transform: rotate(90deg);
+         
           height: 375px;
+          image-orientation: from-image;
                
       }
       .photo2{ 
