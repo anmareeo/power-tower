@@ -10,6 +10,7 @@ import front from "../images/front.png"
 import side from "../images/side.png"
 import onSite from "../images/onSite.png"
 import trailer from "../images/trailer.png"
+import Northrop from "../images/northrop.png"
 
 
 
@@ -28,7 +29,7 @@ export default function Photos(){
         <div className="box">
              <h1>Photos</h1>
             <div class = "container1">
-            <div class = "item"><img src={main1} alt ='main1' className="photo1" resizeMode="contain" /></div>
+            <div class = "item"><img src={main} alt ='main' className="photo1" resizeMode="contain" /></div>
             </div>
         <div class = "container">
         

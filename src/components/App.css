@@ -52,7 +52,7 @@
     }
     
     #container { 
-        width:1050px;
+        width:1400px;
         height:100px;
         margin: 20px;
         padding: 1px 10px 20px 10px;
@@ -281,7 +281,7 @@
           flex-direction: column;  
           justify-content: center;
           flex-wrap: wrap; /*this allows the items to wrap to the next row if the screen is shrunk*/
-          align-content: space-evenly; /* stretch is the default, and it has the same options as align items (stretch, space-between, space-around).  This aligns rows across the entire axis, whereas align-items just aligns items*/
+          align-content: space-around; /* stretch is the default, and it has the same options as align items (stretch, space-between, space-around).  This aligns rows across the entire axis, whereas align-items just aligns items*/
       }
   
       .container3{
@@ -297,10 +297,10 @@
     }
       .container2{
           background-color: gainsboro;
-          padding: 25px;
+          padding: 10px;
           display: flex;
           flex-direction: row;  
-          justify-content: space-evenly;
+          justify-content: space-between;
   
           align-items: center;
           flex-wrap: wrap; /*this allows the items to wrap to the next row if the screen is shrunk*/
@@ -348,16 +348,21 @@
       }
       .photo1{ 
          
-          height: 375px;
+          height: 350px;
           image-orientation: from-image;
                
       }
       .photo2{ 
-          transform: rotate(90deg);
+        transform: rotate(90deg);
           height: 200px;
                
       }
-     
+      .photo3{ 
+         
+        height: 410px;
+
+             
+    }
       .about{
           height:500px;
           width:350px;
