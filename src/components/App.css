@@ -283,17 +283,28 @@
           flex-wrap: wrap; /*this allows the items to wrap to the next row if the screen is shrunk*/
           align-content: space-around; /* stretch is the default, and it has the same options as align items (stretch, space-between, space-around).  This aligns rows across the entire axis, whereas align-items just aligns items*/
       }
+
+      .container4{
+        background-color: gainsboro;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: column;  
+        justify-content: center;
+        flex-wrap: wrap; /*this allows the items to wrap to the next row if the screen is shrunk*/
+        align-content: space-around; /* stretch is the default, and it has the same options as align items (stretch, space-between, space-around).  This aligns rows across the entire axis, whereas align-items just aligns items*/
+    }
   
       .container3{
         background-color: gainsboro;
         padding: 25px;
         display: flex;
-        flex-direction: column;  
+        flex-direction: row;  
         justify-content: center;
 
         align-items: flex-start;
         flex-wrap: wrap; /*this allows the items to wrap to the next row if the screen is shrunk*/
-        align-content: flex-start; /* stretch is the default, and it has the same options as align items (stretch, space-between, space-around).  This aligns rows across the entire axis, whereas align-items just aligns items*/
+        align-content: stretch; /* stretch is the default, and it has the same options as align items (stretch, space-between, space-around).  This aligns rows across the entire axis, whereas align-items just aligns items*/
     }
       .container2{
           background-color: gainsboro;
@@ -318,7 +329,17 @@
           flex-wrap: wrap; /*this allows the items to wrap to the next row if the screen is shrunk*/
           align-content: space-evenly; /* stretch is the default, and it has the same options as align items (stretch, space-between, space-around).  This aligns rows across the entire axis, whereas align-items just aligns items*/
       }
-  
+      .container3{
+        background-color: gainsboro;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;  
+        justify-content: flex-start;
+
+        align-items: center;
+        flex-wrap: wrap; /*this allows the items to wrap to the next row if the screen is shrunk*/
+        align-content: space-between;
+      }
       
       .item {
           padding:10px;
@@ -363,16 +384,32 @@
 
              
     }
+    .photo4{ 
+         
+        height: 200px;
+             
+    }
       .about{
           height:500px;
           width:350px;
           border:1px solid navy;
           padding:1px;
           margin:1px;
-  
-          
+            
       }
     
+      .ltext{
+        font-size: 50px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    
+          
+    }
+    .bullets{
+       text-align: left;
+          
+    }
+  
   
   
   

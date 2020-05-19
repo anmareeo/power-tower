@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
+import ddslogosmall from "../images/ddslogosmall.png"
 import './App.css';
 
 
@@ -11,11 +12,14 @@ export default function SimpleContainer() {
 
  return (
   <div className="box">
-   <div class = "container1">
- <div class = "item"><h1>Digital Defense Surveillance</h1></div>
- </div>
+   <div class = "container3">
+   <div class = "item"><img src={ddslogosmall} alt ='logo' className="photo4" resizeMode="contain" /></div>
+ <div class = "item i2"><div class = "ltext">Digital Defense Surveillance</div></div>
+
+
 <div class = "container">
-<div>
+        
+        
 <p>Rock legend Tom Petty wasn't the first, but he expressed it well when he sang, "the waiting is the hardest part."                
                If you own a construction business, especially a smaller one, you know the agony of the waiting—that tension between your bid submission and the much needed news that will change your tune to something more like Working Man by Rush. 
                <br></br>

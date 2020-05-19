@@ -80,6 +80,7 @@ export default function SearchAppBar() {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
+          
           <IconButton
             onClick={handleClick}
             edge="start"
@@ -106,7 +107,7 @@ export default function SearchAppBar() {
         
       </Menu>
           <Typography className={classes.title} variant="h2" noWrap>
-           
+          <p>Menu</p>
           </Typography>
        
         </Toolbar>

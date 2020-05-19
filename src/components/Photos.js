@@ -28,8 +28,8 @@ export default function Photos(){
 
         <div className="box">
              <h1>Photos</h1>
-            <div class = "container1">
-            <div class = "item"><img src={main} alt ='main' className="photo1" resizeMode="contain" /></div>
+            <div class = "container4">
+            <div class = "item"><img src={main} alt ='main' className="photo3" resizeMode="contain" /></div>
             </div>
         <div class = "container">
         
