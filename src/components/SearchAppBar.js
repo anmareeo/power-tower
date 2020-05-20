@@ -106,8 +106,7 @@ export default function SearchAppBar() {
         {/* <MenuItem onClick={handleClose}>Logout</MenuItem> */}
         
       </Menu>
-          <Typography className={classes.title} variant="h2" noWrap>
-          <p>Menu</p>
+          <Typography className={classes.title} variant="h5" noWrap>
           </Typography>
        
         </Toolbar>

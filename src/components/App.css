@@ -45,7 +45,7 @@
         
     }
     #box{
-        width:1400px;
+        width:1450px;
         margin:20px;
         
     
@@ -306,16 +306,16 @@
         flex-wrap: wrap; /*this allows the items to wrap to the next row if the screen is shrunk*/
         align-content: stretch; /* stretch is the default, and it has the same options as align items (stretch, space-between, space-around).  This aligns rows across the entire axis, whereas align-items just aligns items*/
     }
-      .container2{
+      .container5{
           background-color: gainsboro;
-          padding: 10px;
+          min-height: 650px;
+          padding: 1 px;
           display: flex;
           flex-direction: row;  
-          justify-content: space-between;
-  
+          justify-content: space-evenly;
+          align-items: flex-start;
           align-items: center;
           flex-wrap: wrap; /*this allows the items to wrap to the next row if the screen is shrunk*/
-          align-content: center; /* stretch is the default, and it has the same options as align items (stretch, space-between, space-around).  This aligns rows across the entire axis, whereas align-items just aligns items*/
       }
       
       .container {
@@ -323,11 +323,12 @@
           padding: 10px;
           display: flex;
           flex-direction: row;  
+          min-height: 700px;
           justify-content: space-evenly;
-          align-items: stretch; /*this aligns items along the row.*/
+          align-items: space-evenly; /*this aligns items along the row.*/
   
           flex-wrap: wrap; /*this allows the items to wrap to the next row if the screen is shrunk*/
-          align-content: space-evenly; /* stretch is the default, and it has the same options as align items (stretch, space-between, space-around).  This aligns rows across the entire axis, whereas align-items just aligns items*/
+          align-content: space-around; /* stretch is the default, and it has the same options as align items (stretch, space-between, space-around).  This aligns rows across the entire axis, whereas align-items just aligns items*/
       }
       .container3{
         background-color: gainsboro;
@@ -390,11 +391,12 @@
              
     }
       .about{
-          height:500px;
-          width:350px;
+          height:600px;
+          width:330px;
           border:1px solid navy;
-          padding:1px;
+          padding:10 10px;
           margin:1px;
+          justify-self: start;
             
       }
     
@@ -407,6 +409,7 @@
     }
     .bullets{
        text-align: left;
+       padding:10px;
           
     }
   
